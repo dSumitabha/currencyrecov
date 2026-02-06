@@ -10,3 +10,16 @@
   --shadow-neon-purple: 0 0 5px #bd52eb, 0 0 20px #bd52eb;
   --shadow-neon-green: 0 0 5px #39ff14, 0 0 20px #39ff14;
 }
+
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 44s linear infinite;
+}
