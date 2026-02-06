@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Marquee from '@/components/Marquee'
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
+import SeacrhSection from '@/components/SearchSection'
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Marquee />
                 <Hero />
                 <Features />
+                <SeacrhSection />
             </div>
         </>
     )
