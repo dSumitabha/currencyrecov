@@ -7,6 +7,7 @@ import Hero from '@/components/Hero'
 import Features from '@/components/Features'
 import SeacrhSection from '@/components/SearchSection'
 import AdvantagesGrid from '@/components/AdvantegesGrid'
+import TextStatement from './components/TextSection'
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Features />
                 <SeacrhSection />
                 <AdvantagesGrid />
+                <TextStatement />
             </div>
         </>
     )
