@@ -8,6 +8,7 @@ import Features from '@/components/Features'
 import SeacrhSection from '@/components/SearchSection'
 import AdvantagesGrid from '@/components/AdvantegesGrid'
 import TextStatement from './components/TextSection'
+import HighlightSplit from './components/HighlightSplit'
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <SeacrhSection />
                 <AdvantagesGrid />
                 <TextStatement />
+                <HighlightSplit />
             </div>
         </>
     )
