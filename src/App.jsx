@@ -6,6 +6,7 @@ import Marquee from '@/components/Marquee'
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
 import SeacrhSection from '@/components/SearchSection'
+import AdvantagesGrid from '@/components/AdvantegesGrid'
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Hero />
                 <Features />
                 <SeacrhSection />
+                <AdvantagesGrid />
             </div>
         </>
     )
