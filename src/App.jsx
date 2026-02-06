@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Header from '@/components/Header'
 import Marquee from '@/components/Marquee'
 import Hero from '@/components/Hero'
+import Features from '@/components/Features'
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Header />
                 <Marquee />
                 <Hero />
+                <Features />
             </div>
         </>
     )
