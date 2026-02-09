@@ -2,23 +2,23 @@ import React from "react";
 
 const ADVANTAGES = [
     {
-        title: "Decentralization",
-        subtitle: "No single point of control",
+        title: "Regaining Control of Your Digital Assets",
+        subtitle: "Recover your digital assets using card payments, mobile wallets, or bank transfer methods.",
         sticker: "/stickers/decentralized.png",
     },
     {
-        title: "Transparency",
-        subtitle: "On-chain verifiable data",
+        title: "Earn rewards effortlessly and with full protection",
+        subtitle: "Receive up to 70% APR in rewards from reliable and authenticated sources.",
         sticker: "/stickers/transparency.png",
     },
     {
-        title: "Security",
-        subtitle: "Cryptography driven trust",
+        title: "Take the next step and explore thrilling new opportunities",
+        subtitle: "Discover leading NFT platforms and manage your funds with assurance.",
         sticker: "/stickers/security.png",
     },
     {
-        title: "Immutability",
-        subtitle: "Tamper-proof records",
+        title: "Swap your wallet with confidence and enhanced security.",
+        subtitle: "Securely trade more than 10,000 wallet currencies through trusted providers.",
         sticker: "/stickers/immutability.png",
     },
 ];
