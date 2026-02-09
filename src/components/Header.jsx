@@ -15,7 +15,7 @@ export default function Header() {
                                 />
                             </div>
                             <span className="text-sm font-semibold tracking-wider text-white dark:text-white">
-                                BLOCK·CHAIN
+                                CRYPTO WALLET MANAGEMENT
                             </span>
                         </div>
 
@@ -35,7 +35,7 @@ export default function Header() {
 
                         <div>
                             <button className="rounded-lg border border-cyber-purple/60 bg-cyber-purple/10 px-5 py-2 text-sm font-medium text-cyber-black dark:text-white shadow-[0_0_12px_#bd52eb] transition hover:bg-cyber-purple/20 hover:shadow-[0_0_20px_#bd52eb]">
-                                Get Started
+                                Call Us 📞
                             </button>
                         </div>
                     </div>
