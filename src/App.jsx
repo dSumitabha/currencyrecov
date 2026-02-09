@@ -28,6 +28,12 @@ function App() {
                     backed by dependable support and real-time updates."
                 />
                 <HighlightSplit />
+                <TextStatement
+                    title="Protect the confidentiality and security of your digital wallet"
+                    description="Stay confident with cutting-edge privacy and security 
+                    features that safeguard your data and digital assets, all while keeping
+                    you fully in control."
+                />
             </div>
         </>
     )
