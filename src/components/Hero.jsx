@@ -1,6 +1,22 @@
-import React from "react";
+import {useEffect, useState} from "react";
 
 export default function Hero() {
+    const messages = [
+        "Want to undo a recent payment made through your digital wallet?",
+        "Is your digital wallet payment delayed and you’re seeking assistance to speed it up?",
+        "Accidentally transferred funds to the wrong address and need support recovering your digital assets?",
+    ];
+
+    const [index, setIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setIndex((prev) => (prev + 1) % messages.length);
+        }, 4000);
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <section className="relative flex min-h-screen items-center overflow-hidden">
             <BackgroundGrid />
@@ -13,17 +29,19 @@ export default function Hero() {
                         </span>
 
                         <h1 className="text-4xl font-bold leading-tight text-cyber-black dark:text-white md:text-5xl">
-                            Build <span className="text-cyber-purple drop-shadow-[0_0_12px_#bd52eb]">Trustless</span>{" "}
-                            Systems for the{" "}
-                            <span className="text-cyber-green drop-shadow-[0_0_10px_#39ff14]">
-                                Decentralized
+                            Secure, Restore, and{" "}
+                            <span className="text-cyber-purple drop-shadow-[0_0_12px_#bd52eb]">
+                                Recover
                             </span>{" "}
-                            Future
+                            Your{" "}
+                            <span className="text-cyber-green drop-shadow-[0_0_10px_#39ff14]">
+                                Digital Assets
+                            </span>{" "}
+                            with Confidence
                         </h1>
 
-                        <p className="max-w-xl text-sm leading-relaxed text-cyber-black/70 dark:text-white/70">
-                            We engineer secure, scalable blockchain solutions — from smart contracts
-                            and DeFi protocols to enterprise-grade Web3 platforms.
+                        <p key={index} className="max-w-xl text-sm leading-relaxed text-cyber-black/70 dark:text-white/70 animate-fade-slide">
+                            {messages[index]}
                         </p>
 
                         <div className="flex items-center gap-4 pt-2">
