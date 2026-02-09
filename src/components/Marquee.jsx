@@ -27,11 +27,11 @@ function MarqueeItem() {
     return (
         <div className="flex items-center gap-3 text-sm font-medium tracking-wide">
             <span className="text-cyber-black dark:text-white">
-                Smart Contracts · DeFi · Web3 · NFT Platforms · Blockchain Audits
+                Get Instant Support For Trezor,Ledger,Trust,Tangem,Safepal 
             </span>
 
             <span className="text-cyber-green drop-shadow-[0_0_6px_#39ff14]">
-                Call: +91 90000 12345
+                Call: +1 (000) 000-0000
             </span>
         </div>
     );
