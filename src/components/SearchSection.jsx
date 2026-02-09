@@ -7,18 +7,18 @@ export default function SearchSection() {
 
             <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
                 <h2 className="text-4xl font-semibold tracking-tight text-cyber-black dark:text-white">
-                    Explore Blockchain Solutions
+                    A One Unified Platform for Countless Assets  
                 </h2>
 
                 <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-cyber-black/70 dark:text-white/70">
-                    Search through our blockchain capabilities, protocols, and development expertise.
-                    This is a preview of how you’ll navigate solutions built for the decentralized future.
+                    As a top Digital Assets Recovery platform, 
+                    we offer secure and seamless handling of millions of assets across more than 100 wallets—all in one place.
                 </p>
 
                 <div className="mx-auto mt-10 flex max-w-3xl items-center gap-3 rounded-xl border border-cyber-purple/40 bg-white/10 p-2 backdrop-blur-md shadow-[0_0_24px_rgba(189,82,235,0.35)] dark:bg-white/5">
                     <input
                         type="text"
-                        placeholder="Search smart contracts, DeFi, audits, Web3..."
+                        placeholder="Search addresses, transactions and blocks"
                         className="flex-1 bg-transparent px-4 py-3 text-sm text-cyber-black placeholder:text-cyber-black/40 outline-none dark:text-white dark:placeholder:text-white/40"
                         disabled
                     />
