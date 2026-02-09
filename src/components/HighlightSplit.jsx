@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function HighlightSplit({title, description, image, order }) {
+export default function HighlightSplit({title, description, image, order, bgColor }) {
     return (
         <section className="relative py-16">
-            <div className="max-w-6xl rounded-2xl py-16 mx-auto bg-cyber-purple">
+            <div className={`max-w-6xl rounded-2xl mx-auto ${bgColor}`}>
 
                 <div className="relative z-10 mx-auto px-16">
                     <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/10 backdrop-blur-md shadow-[0_0_50px_rgba(189,82,235,0.45)] dark:bg-cyber-black">

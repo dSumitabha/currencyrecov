@@ -33,6 +33,8 @@ function App() {
                     title="Quickly and safely fund your wallet from exchanges with simple, secure transfers"
                     description="Take full control of your wallet—skip the complications and deposit directly from leading exchanges like Binance, Coinbase, and more with ease and security."
                     image="Block Chain"
+                    order="order-1"
+                    bgColor="bg-cyber-purple py-16"
                 />
                 <TextStatement
                     title="Protect the confidentiality and security of your digital wallet"
@@ -45,13 +47,24 @@ function App() {
                     description="Your wallet is secured with state-of-the-art protection, but only you possess the private keys and recovery phrase — they stay completely out of our reach at all times."
                     image="Ownership"
                     order="order-2"
+                    bgColor = "bg-cyber-purple py-16"
                 />
                 <TextStatement
                     title="Safeguard your privacy and stay fully protected"
-                    description="Maintain full control through our strong privacy and security protocols, keeping your data and digital assets safe and secure."
+                    description="Maintain full control through our strong privacy and security protocols, 
+                    keeping your data and digital assets safe and secure."
                 />
                 <WalletAuthority />
                 <InfoGrid />
+                <HighlightSplit 
+                    title="Powered by Reliability"
+                    description="We strongly believe in the strength of community collaboration 
+                    to create better results for all. Our platform empowers wallet developers 
+                    to easily build apps and wallets, connect with millions of users,
+                    and concentrate on innovation—without the hassle of handling complex technical foundations."
+                    image="Reliability"
+                    bgColor = "bg-cyber-black"
+                />
             </div>
         </>
     )
