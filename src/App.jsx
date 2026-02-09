@@ -11,6 +11,7 @@ import TextStatement from './components/TextSection'
 import HighlightSplit from './components/HighlightSplit'
 import WalletAuthority from './components/WalletAuthority'
 import InfoGrid from './components/InfoGrid'
+import WideSplitSection from './components/WideSplitSection'
 
 function App() {
     return (
@@ -65,6 +66,7 @@ function App() {
                     image="Reliability"
                     bgColor = "bg-cyber-black"
                 />
+                <WideSplitSection />
             </div>
         </>
     )
