@@ -12,6 +12,7 @@ import HighlightSplit from './components/HighlightSplit'
 import WalletAuthority from './components/WalletAuthority'
 import InfoGrid from './components/InfoGrid'
 import WideSplitSection from './components/WideSplitSection'
+import Footer from './components/Footer'
 
 function App() {
     return (
@@ -67,6 +68,7 @@ function App() {
                     bgColor = "bg-cyber-black"
                 />
                 <WideSplitSection />
+                <Footer />
             </div>
         </>
     )
