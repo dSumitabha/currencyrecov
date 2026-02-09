@@ -27,12 +27,22 @@ function App() {
                     track assets, view rewards, and perform secure swaps anytime, anywhere,
                     backed by dependable support and real-time updates."
                 />
-                <HighlightSplit />
+                <HighlightSplit 
+                    title="Quickly and safely fund your wallet from exchanges with simple, secure transfers"
+                    description="Take full control of your wallet—skip the complications and deposit directly from leading exchanges like Binance, Coinbase, and more with ease and security."
+                    image="Block Chain"
+                />
                 <TextStatement
                     title="Protect the confidentiality and security of your digital wallet"
                     description="Stay confident with cutting-edge privacy and security 
                     features that safeguard your data and digital assets, all while keeping
                     you fully in control."
+                />
+                <HighlightSplit 
+                    title="Complete ownership and control of your wallet assets"
+                    description="Your wallet is secured with state-of-the-art protection, but only you possess the private keys and recovery phrase — they stay completely out of our reach at all times."
+                    image="Ownership"
+                    order="order-2"
                 />
             </div>
         </>
