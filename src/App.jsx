@@ -9,6 +9,7 @@ import SeacrhSection from '@/components/SearchSection'
 import AdvantagesGrid from '@/components/AdvantegesGrid'
 import TextStatement from './components/TextSection'
 import HighlightSplit from './components/HighlightSplit'
+import WalletAuthority from './components/WalletAuthority'
 
 function App() {
     return (
@@ -48,6 +49,7 @@ function App() {
                     title="Safeguard your privacy and stay fully protected"
                     description="Maintain full control through our strong privacy and security protocols, keeping your data and digital assets safe and secure."
                 />
+                <WalletAuthority />
             </div>
         </>
     )
