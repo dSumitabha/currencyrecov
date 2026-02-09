@@ -44,6 +44,10 @@ function App() {
                     image="Ownership"
                     order="order-2"
                 />
+                <TextStatement
+                    title="Safeguard your privacy and stay fully protected"
+                    description="Maintain full control through our strong privacy and security protocols, keeping your data and digital assets safe and secure."
+                />
             </div>
         </>
     )
