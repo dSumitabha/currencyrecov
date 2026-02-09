@@ -10,6 +10,7 @@ import AdvantagesGrid from '@/components/AdvantegesGrid'
 import TextStatement from './components/TextSection'
 import HighlightSplit from './components/HighlightSplit'
 import WalletAuthority from './components/WalletAuthority'
+import InfoGrid from './components/InfoGrid'
 
 function App() {
     return (
@@ -50,6 +51,7 @@ function App() {
                     description="Maintain full control through our strong privacy and security protocols, keeping your data and digital assets safe and secure."
                 />
                 <WalletAuthority />
+                <InfoGrid />
             </div>
         </>
     )
