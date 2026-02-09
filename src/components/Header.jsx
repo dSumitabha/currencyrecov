@@ -14,7 +14,7 @@ export default function Header() {
                                     className="h-full w-full rounded-lg object-cover opacity-80"
                                 />
                             </div>
-                            <span className="text-sm font-semibold tracking-wider text-white dark:text-white">
+                            <span className="text-xl font-semibold tracking-wider text-white dark:text-white">
                                 CRYPTO WALLET MANAGEMENT
                             </span>
                         </div>

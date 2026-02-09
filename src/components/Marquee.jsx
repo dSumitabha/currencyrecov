@@ -25,8 +25,8 @@ export default function Marquee() {
 
 function MarqueeItem() {
     return (
-        <div className="flex items-center gap-3 text-sm font-medium tracking-wide">
-            <span className="text-cyber-black dark:text-white">
+        <div className="flex items-center gap-3 text-sm font-medium tracking-wider">
+            <span className="text-cyber-black dark:text-yellow-600 font-semibold uppercase">
                 Get Instant Support For Trezor,Ledger,Trust,Tangem,Safepal 
             </span>
 

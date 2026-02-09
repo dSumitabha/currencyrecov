@@ -2,11 +2,11 @@ import React from "react";
 
 const FEATURES = [
     {
-        label: "Smart Contract Engineering",
+        label: "Trusted by 14M+ users",
         sticker: "/stickers/smart-contract.png",
     },
     {
-        label: "Decentralized App Development",
+        label: "Established in 2016",
         sticker: "/stickers/dapp.png",
     },
     {
