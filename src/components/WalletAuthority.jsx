@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WalletAuthority() {
     return (
-        <section className="relative py-32">
+        <section className="relative py-4">
 
             <div className="relative z-10 mx-auto max-w-5xl px-6">
                 <div className="relative rounded-2xl border border-white/10 bg-white/10 p-10 backdrop-blur-md shadow-[0_0_60px_rgba(255,22,148,0.35)] dark:bg-white/5">
