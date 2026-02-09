@@ -17,7 +17,7 @@ import Footer from './components/Footer'
 function App() {
     return (
         <>
-            <div className="min-h-screen dark:bg-cyber-black">
+            <div className="min-h-screen bg-cyber-black">
                 <Header />
                 <Marquee />
                 <Hero />
