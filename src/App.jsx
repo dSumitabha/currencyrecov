@@ -20,7 +20,13 @@ function App() {
                 <Features />
                 <SeacrhSection />
                 <AdvantagesGrid />
-                <TextStatement />
+                <TextStatement
+                    title="Seamless, Secure, Effortless, Fast, Reliable, and Intuitive"
+                    description="Experience seamless access across mobile and desktop with robust,
+                    user-friendly tools designed to enhance your complete Web3 experience—
+                    track assets, view rewards, and perform secure swaps anytime, anywhere,
+                    backed by dependable support and real-time updates."
+                />
                 <HighlightSplit />
             </div>
         </>
