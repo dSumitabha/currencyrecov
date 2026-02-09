@@ -9,7 +9,7 @@ export default function Hero() {
                 <div className="grid h-full grid-cols-1 items-center gap-12 md:grid-cols-2">
                     <div className="space-y-6">
                         <span className="inline-block rounded-md border border-cyber-purple/40 bg-cyber-purple/10 px-3 py-1 text-xs font-medium tracking-wider text-cyber-purple shadow-[0_0_10px_rgba(189,82,235,0.4)]">
-                            BLOCKCHAIN DEVELOPMENT
+                            Digital Assets Recovery
                         </span>
 
                         <h1 className="text-4xl font-bold leading-tight text-cyber-black dark:text-white md:text-5xl">
